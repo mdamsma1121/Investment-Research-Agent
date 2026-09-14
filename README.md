@@ -19,6 +19,7 @@ An AI-powered equity research pipeline that utilizes a multi-agent architecture 
    * *Sentiment:* Parses external news and SEC filings.
 4. **Synthesis Hub:** Aggregates quantitative, visual, and qualitative data.
 5. **Output:** Comprehensive equity research report displayed in the UI.
+<img width="1416" height="868" alt="image" src="https://github.com/user-attachments/assets/fca94480-a037-495b-8957-5eb1f6d2275d" />
 
 ## Prerequisites
 
