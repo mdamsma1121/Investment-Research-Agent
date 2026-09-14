@@ -1,12 +1,11 @@
 # Investment-Research-Agent
-An AI-powered equity research pipeline that utilizes a multi-agent architecture to automate fundamental valuation, technical chart analysis, and market sentiment scoring. Built with Python and the Anthropic API (Claude 3.5 Sonnet), this system synthesizes a comprehensive investment thesis and presents it via an interactive Streamlit dashboard.
 
 ## Features
 
 * **Orchestrator Agent:** Dynamically routes ticker symbols to specialized sub-agents and synthesizes conflicting signals into a cohesive investment recommendation.
-* **Fundamental Analysis:** Programmatically extracts financial statement data via the Wisesheets API and populates custom Discounted Cash Flow (DCF) valuation templates.
-* **Technical Analysis:** Generates price action, volume, and momentum charts using Matplotlib and Seaborn, leveraging Claude's vision capabilities for autonomous pattern recognition.
-* **Sentiment Analysis:** Aggregates and scores qualitative data from news sentiment and corporate filings.
+* **Fundamental Agent:** Programmatically extracts financial statement data via the Wisesheets API and populates custom Discounted Cash Flow (DCF) valuation templates.
+* **Technical Agent** Generates price action, volume, and momentum charts using Matplotlib and Seaborn, leveraging Claude's vision capabilities for autonomous pattern recognition.
+* **Sentiment Agent** Aggregates and scores qualitative data from news sentiment and corporate filings.
 * **Interactive UI:** A Streamlit-based web interface for querying tickers and viewing the generated research reports and visualizations.
 
 ## System Architecture
@@ -20,10 +19,3 @@ An AI-powered equity research pipeline that utilizes a multi-agent architecture 
 4. **Synthesis Hub:** Aggregates quantitative, visual, and qualitative data.
 5. **Output:** Comprehensive equity research report displayed in the UI.
 <img width="1416" height="868" alt="image" src="https://github.com/user-attachments/assets/fca94480-a037-495b-8957-5eb1f6d2275d" />
-
-## Prerequisites
-
-* Python 3.9+
-* [Anthropic API Key](https://console.anthropic.com/)
-* [Wisesheets API Key](https://www.wisesheets.io/)
-* Git & VS Code
